@@ -59,3 +59,7 @@ firebase init
 firebase deploy
 firebase deploy --only hosting
 firebase deploy --only functions
+
+To deploy new chnages: 
+npm run build 
+firebase deploy
