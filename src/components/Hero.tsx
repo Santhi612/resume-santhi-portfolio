@@ -36,7 +36,7 @@ export const Hero = () => {
                 </span>
               </h1>
               <h2 className="text-xl md:text-2xl text-slate-600 font-medium">
-                Software Engineer | Java | Spring Boot | Microservices | GCP
+                Senior Software Engineer | Java | Spring Boot | Microservices | GCP
               </h2>
               <div className="flex items-center gap-2 text-slate-500">
                 <MapPin size={16} />
@@ -47,10 +47,10 @@ export const Hero = () => {
             </div>
 
             <p className="text-lg text-slate-600 leading-relaxed max-w-xl">
-              Results-driven Software Engineer with 4.5 years of experience in
+              Results-driven Senior Software Engineer with 5+ years of experience in
               designing and deploying scalable cloud-native solutions using
-              Java, Spring Boot, GCP, and .NET. Passionate about building
-              performant backend systems and seamless user experiences.
+              Java, Spring Boot, GCP, and .NET. Passionate about building performant 
+              backend systems and seamless user experiences.
             </p>
 
             {/* Buttons */}

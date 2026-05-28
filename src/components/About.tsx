@@ -4,7 +4,7 @@ import { Calendar, MapPin, Award, Target, Code2, Cloud, Database, Zap } from "lu
 
 export const About = () => {
   const highlights = [
-    { icon: <Calendar className="h-5 w-5" />, label: "Experience", value: "4.5+ Years" },
+    { icon: <Calendar className="h-5 w-5" />, label: "Experience", value: "5+ Years" },
     { icon: <MapPin className="h-5 w-5" />, label: "Location", value: "India" },
     { icon: <Award className="h-5 w-5" />, label: "Education", value: "B.Tech in Computer Science" },
     { icon: <Target className="h-5 w-5" />, label: "Status", value: "Open to Opportunities" },
@@ -46,11 +46,12 @@ export const About = () => {
             About Me
           </h2>
           <p className="text-lg md:text-xl text-slate-600 dark:text-slate-300 max-w-4xl mx-auto leading-relaxed">
-            Highly motivated and results-driven Software Engineer with 4.5 years of experience in designing,
+            Highly motivated and results-driven Software Engineer with 5+ years of experience in designing,
             developing, maintaining, and deploying scalable and robust cloud-native solutions. 
             Proven expertise in <strong>Java (Spring Boot)</strong>, <strong>GCP</strong>, and <strong>.NET (C#)</strong>, 
             with a strong focus on data migration, real-time data processing (Apache Dataflow/Beam), and 
-            microservices architecture (Kubernetes/GKE).
+            microservices architecture (Kubernetes/GKE). Hands-on experience with CI/CD automation, SDD-driven development using Kiro, building custom
+            AI agents with Google ADK, and AI-assisted engineering via GitHub Copilot and Gemini Code Assist.
           </p>
         </div>
 
@@ -73,11 +74,13 @@ export const About = () => {
                   <p>
                     I have worked extensively with <strong>Docker, Kubernetes, Firestore, and BigQuery</strong> to manage 
                     distributed systems and real-time data streams. My focus lies in developing reliable backend systems, 
-                    implementing CI/CD workflows, and optimizing API performance.
+                    implementing CI/CD workflows, and optimizing API performance. 
                   </p>
                   <p>
                     As a collaborative team player, I also integrate AI-powered tools like <strong>GitHub Copilot </strong> 
-                    and <strong>Gemini Code Assist</strong> to accelerate development and maintain high code quality.
+                    and <strong>Gemini Code Assist</strong> to accelerate development and maintain high code quality. And also 
+                    developed custom AI agents using <strong>Google ADK</strong> to automate routine tasks and enhance productivity. 
+                    Used Spec driven development(SDD) using Kiro to ensure clear requirements and efficient implementation.
                   </p>
                 </div>
               </CardContent>
@@ -150,6 +153,15 @@ export const About = () => {
                   >
                     <a href ="https://www.credly.com/badges/91378757-9291-49e5-81f1-cf96bbdfa5dd/public_url" target="_blank" rel="noopener noreferrer">
                       Google Cloud Certified – Professional Cloud Architect
+                    </a>
+                  </Badge>
+
+                  <Badge
+                    variant="secondary"
+                    className="w-full justify-start p-3 bg-blue-100 text-blue-800 hover:bg-blue-200 dark:bg-blue-900/40 dark:text-blue-300"
+                  >
+                    <a href ="https://www.credly.com/badges/da510ebd-3b73-4fe5-b6cf-33b97255924f/public_url" target="_blank" rel="noopener noreferrer">
+                      Google Cloud Certified – Generative AI Leader
                     </a>
                   </Badge>
                 </div>

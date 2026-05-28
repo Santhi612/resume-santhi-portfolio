@@ -5,11 +5,11 @@ const Skills = () => {
   const skillCategories = [
     {
       category: "Languages",
-      skills: ["Java", "C#", "SQL", "JavaScript", "HTML", "CSS"],
+      skills: ["Java(SpringBoot)", "C#", "SQL", "JavaScript", "HTML", "CSS", "Python"],
     },
     {
       category: "Frameworks",
-      skills: ["Spring Boot", "ASP.NET", "Apache Beam"],
+      skills: ["Spring Boot", "ASP.NET", "Apache Beam/Dataflow"],
     },
     {
       category: "Databases",
@@ -21,7 +21,7 @@ const Skills = () => {
     },
     {
       category: "AI & Dev Tools",
-      skills: ["GitHub Copilot", "Gemini Code Assist"],
+      skills: ["GitHub Copilot", "Gemini Code Assist", "Agent Development Kit (ADK)", "Kiro (SDD)"],
     },
     {
       category: "Monitoring & Logging",
